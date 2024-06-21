@@ -61,7 +61,7 @@ torus.position.set(0, 1, 10);
 // y 軸は緑
 // z 軸は青
 var axes = new THREE.AxesHelper(25);
-scene.add(axes);
+// scene.add(axes);
 
 scene.add(box, torus);
 
@@ -139,8 +139,6 @@ animationScript.push({
     box.rotation.y += 0.02;
   },
 });
-
-
 
 function playSclollAnimation() {
   animationScript.forEach((animation) => {
